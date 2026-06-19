@@ -1,0 +1,36 @@
+{
+    "behaviors": [
+        {
+            "class_id": 0,
+            "behavior_class": "Safe Walkway Violation",
+            "domain": "Pedestrian Movement",
+            "policy_rule_ref": "Section 3.3.2",
+            "observable_indicator": "Person outside green floor markings",
+            "severity_tier": "HIGH"
+        },
+        {
+            "class_id": 1,
+            "behavior_class": "Unauthorized Intervention",
+            "domain": "Equipment Interaction",
+            "policy_rule_ref": "Section 4.3.2",
+            "observable_indicator": "Person interacting with equipment without green vest",
+            "severity_tier": "CRITICAL"
+        },
+        {
+            "class_id": 2,
+            "behavior_class": "Opened Panel Cover",
+            "domain": "Electrical Safety",
+            "policy_rule_ref": "Section 5.2.2",
+            "observable_indicator": "Panel cover in open position",
+            "severity_tier": "LOW"
+        },
+        {
+            "class_id": 3,
+            "behavior_class": "Carrying Overload with Forklift",
+            "domain": "Forklift Load",
+            "policy_rule_ref": "Section 6.3.2",
+            "observable_indicator": "3 or more blocks on forklift forks",
+            "severity_tier": "CRITICAL"
+        }
+    ]
+}
